@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-// ⚠️ Change this to your Railway backend URL after deploying
-const BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000/api';
+
+const BASE_URL = 'https://taskflow-production-5999.up.railway.app/api';
 
 const api = axios.create({ baseURL: BASE_URL });
 
